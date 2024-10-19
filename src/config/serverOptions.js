@@ -5,13 +5,13 @@ const nickname = "Brikaine";
 const tag = "[Brikaine]"; 
 
 
-async function ServerOptions() {
-    const bot = mineflayer.createBot({
-        username: "Brikaine",
-        host: "localhost",
-    });
-}
+
+const bot = mineflayer.createBot({
+    username: "Brikaine",
+    host: "localhost",
+});
+
 
 module.exports = {
-    ServerOptions
+    bot
 };
